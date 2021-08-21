@@ -51,13 +51,13 @@ public class AlgorithmComparison {
                 BubbleSort.bubbleSort(arr2);
                 break;
             case HEAP:
-                HeapSort.heapSort(arr2);
+                HeapSort.sort(arr2);
                 break;
             case MERGE:
-                MergeSort.mergeSort(arr2, 0, arr2.length - 1);
+                MergeSort.merge(arr2, 0, arr2.length - 1);
                 break;
             case QUICK:
-                QuickSort.quickSort(arr2, 0, arr2.length - 1);
+                GFG.quickSort(arr2, 0, arr2.length - 1);
                 break;
         }
 
